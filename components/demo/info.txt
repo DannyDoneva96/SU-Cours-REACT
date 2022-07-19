@@ -1,0 +1,2 @@
+npx create-react-app . 
+react component is function that return react element 
