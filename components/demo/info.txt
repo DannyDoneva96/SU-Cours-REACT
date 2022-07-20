@@ -1,2 +1,5 @@
 npx create-react-app . 
 react component is function that return react element 
+useState - vrushta masiv s 2 el purviq e state a vtoriq funkciq
+
+workshop - 
