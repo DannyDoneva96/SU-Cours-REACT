@@ -41,7 +41,7 @@ export const Books = (props) => {
      
     return (
         <div className="div">
-            <ul> {data.map(x=>(<Book data = {x} key={data.title}/>))}</ul>
+            <ul> {data.map((x,i)=><Book key={i} data = {x} />)}</ul>
         </div>
     )
 

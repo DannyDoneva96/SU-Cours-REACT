@@ -2,7 +2,7 @@ export const Book = (props) => {
 
     return (
 
-        <li>
+        <li key={props.i}>
             <h4>{props.data.title}</h4>
             <ol>
                 <li>Language:{props.data.language}</li>
